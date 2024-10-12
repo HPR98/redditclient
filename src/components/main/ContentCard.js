@@ -9,19 +9,19 @@ function contentCard(){
         <div className="ContentCard">
             <h1 className="ContentTitle">Content Title</h1>
             <div className="ContentImageDiv">
-                <img src={placeholder} className="ContentImage"></img>
+                <img src={placeholder} className="ContentImage" alt="Content placeholder"></img>
             </div>
             <div className="UserInteraction">
                 <div className="likeSection">
-                    <img src={arrow} className="likeButton"></img>
+                    <img src={arrow} className="likeButton" alt="Like button"></img>
                     <h2 className="likeText">666</h2>
                 </div>
                 <div className="dislikeSection">
-                    <img src={arrow} className="dislikeButton"></img>
+                    <img src={arrow} className="dislikeButton" alt="Dislike button"></img>
                     <h2 className="dislikeText">666</h2>
                 </div>
                 <div className="CommentsDiv">
-                    <img src={comments} className="CommentsImage"></img>
+                    <img src={comments} className="CommentsImage" alt="Comments icon"></img>
                     <h2>666</h2>
                 </div>
             </div>

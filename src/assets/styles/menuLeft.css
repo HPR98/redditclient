@@ -1,0 +1,25 @@
+.menu{
+    position: absolute;
+    top: 10%;
+    background-color: aliceblue;
+    z-index: 100;
+    border-radius: 10%;
+}
+.closeButton{
+    height: 50px;
+}
+.closeButtonImage{
+    height: 100%;
+}
+.categoryItem{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.categoryItemImage{
+    height: 50px;
+    margin-right: 20px;
+}
+.categoryItemText{
+    font-size: 30px;
+}
