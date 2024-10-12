@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+.ContentCard{
+    height: 400px;
+    width: 40%;
+    margin-top:  5%;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.ContentTitle{
+    text-align: center;
+    height: 10%;
+}
+.ContentImageDiv{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.ContentImage{
+    height: 100%;
+    width: auto;
+}
+.UserInteraction{
+    height: 20%;
+    display: flex;
+}
+.likeSection{
+    height: 100%;
+    width: fit-content;
+    padding-left: 5%;
+}
+.likeButton{
+    height: 60%;
+    transform: rotate(-90deg);
+}
+.likeText{
+    width: fit-content;
+    margin: 0;
+}
+.dislikeSection{
+    height: 100%;
+    width: fit-content;
+    padding-left: 5%;
+}
+.dislikeButton{
+    height: 60%;
+    transform: rotate(90deg);
+}
+.dislikeText{
+    width: fit-content;
+}
+.CommentsDiv{
+    height: 100%;
+    width: fit-content;
+    padding-left: 40%;
+}
+.CommentsImage{
+    height: 60%;
+}
